@@ -5,27 +5,211 @@
         <title>首頁</title>
     </head>
     <body>
-        <div class="main">
-            <div class="bg">
-                <div class="bg2">
-                    <nav>
-                        <label for="switch"><img class="img2" src="https://static.thenounproject.com/png/547171-200.png"></label>
-                        <input type="checkbox" id="switch">
-                        <ul class="menu">
-                            <li><a href="https://xian102400.github.io/pages1/">主頁</a></li>
-                            <li><a href="https://xian102400.github.io/pages2/">電影介紹</a></li>
-                            <li><a href="https://xian102400.github.io/pages3/">演員介紹</a></li>
-                            <li><a href="https://www.youtube.com/watch?v=FIurimiW2sE" Target ="_blank">電影預告</a></li>
-                            <li><a href="https://www.youtube.com/watch?v=xWzlwGVQ6_Q" Target ="_blank">電影主題曲</a></li>
+        
+        <div class="container">
+            <div class="header">
+                <ul class="menu">
+                    <li><a href="https://xian102400.github.io/pages1/">首頁</a></li>
+                    <li><a href="https://xian102400.github.io/pages2/">電影介紹</a></li>
+                    <li>
+                        <a href="https://xian102400.github.io/pages3/">角色介紹</a>
+                        <ul class="dropdown">
+                            <li><a href="https://www.instagram.com/kaikaiko/" Target ="_blank">柯震東</a></li>
+                            <li><a href="https://www.instagram.com/yanxi531/" Target ="_blank">陳妍希</a></li>
+                            <li><a href="https://www.instagram.com/bboyowodog/" Target ="_blank">莊濠全</a></li>
+                            <li><a href="https://www.instagram.com/sof0915/" Target ="_blank">郝劭文</a></li>
+                            <li><a href="https://www.instagram.com/emerson_tsai/?hl=zh-tw" Target ="_blank">蔡昌憲</a></li>
+                            <li><a href="https://www.instagram.com/philyan88/" Target ="_blank">侯彥西</a></li>
+                            <li><a href="https://www.instagram.com/cwwany/" Target ="_blank">彎彎</a></li>
                         </ul>
-                    </nav>
-                    <div id="cover" class="coverflow">
-                        <a><img src="pic/R.jpg"></a>
-                        <a><img src="pic/bmgm6.jpg"></a>
-                        <a><img src="pic/tm1.jpg"></a>
+                    </li>
+                    <li><a href="https://www.youtube.com/watch?v=FIurimiW2sE" target="_blank">電影預告片</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=xWzlwGVQ6_Q" target="_blank">電影主題曲</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <ul class="slides">
+                    <input type="radio" id="control-1" name="control" checked>
+                    <input type="radio" id="control-2" name="control">
+                    <input type="radio" id="control-3" name="control">
+
+                    <li class="slide"></li>
+                    <li class="slide"></li>
+                    <li class="slide"></li>
+
+                    <div class="control-visible">
+                        <label for="control-1"></label>
+                        <label for="control-2"></label>
+                        <label for="control-3"></label>
                     </div>
+                </ul>
+            </div>
+            <div class="center">
+                <h1>相關電影</h1>
+                <div class="level">
+                    <img src="https://upload.wikimedia.org/wikipedia/zh/5/50/Love_film.jpg">
+                    <img src="https://upload.wikimedia.org/wikipedia/zh/0/07/Mon_mon_mon_MONSTERS.jpg">
+                    <img src="https://upload.wikimedia.org/wikipedia/zh/0/0a/%E6%9C%88%E8%80%81_%28%E9%9B%BB%E5%BD%B1%29.jpg">
+                    <img src="https://upload.wikimedia.org/wikipedia/zh/b/b7/Missshampooposter.jpg">
+                </div><hr>
+            </div>
+            <div class="bottom">
+                <h1>基本資訊</h1>
+                <table>
+                    <tr>
+                        <td>
+                            <p class="title">
+                                製片商
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">
+                                群星瑞智
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            　
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="title">
+                                片長
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">
+                                110分鐘
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            　
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="title">
+                                分級
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">
+                                保護級
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            　
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="title">
+                                發行日期
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">
+                                2011年
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <p class="title">
+                                語言
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">
+                                中文
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            　
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="title">
+                                音訊
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">
+                                中文
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            　
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="title">
+                                字幕
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">
+                                中文、英文   
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            　
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="title">
+                                產地
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text">
+                                臺灣
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="footer">
+                <p class="text-end">
+                    朝陽科技大學資訊管理系一年級網頁設計期末報告
+                </p>
+                <p class="Contact">
+                    第五組期末報告
                     
-                </div>    
+                </p>
             </div>
         </div>
     </body>
